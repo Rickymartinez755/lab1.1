@@ -102,7 +102,7 @@ cat file1 file2 file3 > all.txt
 - Create a file with `cat` command.
 
 ```bash
-cat > summer.txt 
+cat > winter.txt 
 Today is cold.
 Today is rainy
 ```
