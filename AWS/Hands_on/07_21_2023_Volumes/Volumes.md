@@ -1,7 +1,7 @@
 
 # Hands-on EC2-04 : Extending and Partitioning EBS Volumes
 
-Purpose of the this hands-on training is to teach the students how to add or attach an EBS (Elastic Block Storage) volume on an AWS instance, how to extend and resize volumes, and how to create partitions in volumes on running Amazon Linux 2 EC2 instances.
+Purpose of the this hands-on training is to teach the students how to add or attach an EBS (Elastic Block Storage) volume on an AWS instance, how to extend and resize volumes, and how to create partitions in volumes on running Amazon Linux 2023 EC2 instances.
 
 ## Learning Outcomes
 
@@ -44,7 +44,7 @@ lsblk
 ```
 ## Section 0 - Create new Volume 
 
-- create a new volume in the same AZ "us-east-1" with the instance from AWS console "5 GB" for this demo.
+- create a new volume in the same AZ "us-east-1a" with the instance from AWS console "5 GB" for this demo.
 - attach the new volume from aws console, then list block storages again.
 - root volume and secondary volume should be listed
 ```
